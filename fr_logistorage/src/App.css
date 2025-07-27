@@ -1,0 +1,43 @@
+
+
+.custom-dropdown .dropdown-menu {
+  background: rgba(216, 221, 217, 0.85); 
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  backdrop-filter: blur(4px); 
+}
+
+.custom-dropdown .dropdown-item {
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background: rgba(64, 87, 60, 0.15);
+  color: #13410d;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgba(40, 44, 52, 0.7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
